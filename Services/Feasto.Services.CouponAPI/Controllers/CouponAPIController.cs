@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Feasto.Services.CouponAPI.Controllers;
 
-[Route("api/CouponAPI")]
+[Route("api/coupon")]
 [ApiController]
 public class CouponAPIController : ControllerBase
 {
@@ -106,6 +106,7 @@ public class CouponAPIController : ControllerBase
         return _response;
     }
     [HttpDelete]
+    [Route("{id:int}")]
     public ResponseDTO Delete(int id)
     {
         try
