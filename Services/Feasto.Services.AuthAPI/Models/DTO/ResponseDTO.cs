@@ -1,4 +1,4 @@
-namespace Feasto.Services.CouponAPI.Models.DTO;
+namespace Feasto.Services.AuthAPI.Models.DTO;
 
 public class ResponseDTO
 {
