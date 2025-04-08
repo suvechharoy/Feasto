@@ -14,28 +14,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b77edbc-e96a-4644-8254-0e92f60bd4a4" name="Changes" comment="Consuming Auth API">
-      <change afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Controllers/ProductController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Models/ProductDTO.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Service/IService/IProductService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Service/ProductService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Views/Product/ProductCreate.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Views/Product/ProductDelete.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Views/Product/ProductEdit.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Views/Product/ProductIndex.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Controllers/ProductAPIController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Data/AppDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Extensions/WebAppBuilderExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/MappingConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Models/DTO/ProductDTO.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Models/DTO/ResponseDTO.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Models/Product.cs" afterDir="false" />
+    <list default="true" id="6b77edbc-e96a-4644-8254-0e92f60bd4a4" name="Changes" comment="Product API Added">
+      <change afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Views/Home/ProductDetails.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Feasto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Feasto/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Feasto.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Feasto.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Feasto.Web/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Feasto.Web/Utility/StaticDetails.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Utility/StaticDetails.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Feasto.Web/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Feasto.Web/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/Feasto.Web/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/Feasto.Web/Models/ProductDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Models/ProductDTO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/Feasto.Web/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Controllers/ProductAPIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Controllers/ProductAPIController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +49,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3e1beecd653485b1deb7561c9360f17cdf93ce222c59548f021503eb07450/UserManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/60038225224a9318597b3232280390933d3c3fe85d9ed859a7e4825915eb1c/HttpClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/85e97f467d698c9e98eae9e3a1b39d58541173e57992d8f7111eabdd3db3526/HttpResponseMessage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Frontend/Feasto.Web/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Frontend/Feasto.Web/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Frontend/Feasto.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.CouponAPI/Data/AppDbContext.cs" root0="SKIP_HIGHLIGHTING" />
@@ -294,7 +280,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743576924179</updated>
-      <workItem from="1743576925208" duration="51886000" />
+      <workItem from="1743576925208" duration="54167000" />
     </task>
     <task id="LOCAL-00001" summary="CouponAPI CRUD Added">
       <option name="closed" value="true" />
@@ -336,7 +322,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744107688562</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Product API Added">
+      <option name="closed" value="true" />
+      <created>1744113557418</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1744113557418</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +345,8 @@
     <MESSAGE value="All changes" />
     <MESSAGE value="Auth API added" />
     <MESSAGE value="Consuming Auth API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Consuming Auth API" />
+    <MESSAGE value="Product API Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Product API Added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
