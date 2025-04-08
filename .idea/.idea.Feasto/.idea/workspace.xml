@@ -12,12 +12,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b77edbc-e96a-4644-8254-0e92f60bd4a4" name="Changes" comment="All changes">
-      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/Controllers/AuthAPIController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/Data/AppDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/Models/ApplicationUser.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Feasto.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Feasto.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.CouponAPI/Feasto.Services.CouponAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.CouponAPI/Feasto.Services.CouponAPI.csproj" afterDir="false" />
+    <list default="true" id="6b77edbc-e96a-4644-8254-0e92f60bd4a4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Models/LoginRequestDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Models/LoginResponseDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Models/RegistrationRequestDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Models/UserDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Service/AuthService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Service/IService/IAuthService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Service/IService/ITokenProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Service/TokenProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Views/Auth/Login.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Views/Auth/Register.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.CouponAPI/Extensions/WebAppBuilderExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Feasto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Feasto/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/Feasto.Web/Feasto.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Feasto.Web.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/Feasto.Web/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/Feasto.Web/Service/BaseService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Service/BaseService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/Feasto.Web/Service/IService/IBaseService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Service/IService/IBaseService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/Feasto.Web/Utility/StaticDetails.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Utility/StaticDetails.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/Feasto.Web/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/Feasto.Web/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/Controllers/AuthAPIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/Controllers/AuthAPIController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/Service/AuthService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/Service/AuthService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/Service/IService/IJwtTokenGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/Service/IService/IJwtTokenGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/Service/JwtTokenGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/Service/JwtTokenGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.CouponAPI/Controllers/CouponAPIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.CouponAPI/Controllers/CouponAPIController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.CouponAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.CouponAPI/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.CouponAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.CouponAPI/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +64,14 @@
   }
 }]]></component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3e1beecd653485b1deb7561c9360f17cdf93ce222c59548f021503eb07450/UserManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/60038225224a9318597b3232280390933d3c3fe85d9ed859a7e4825915eb1c/HttpClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/85e97f467d698c9e98eae9e3a1b39d58541173e57992d8f7111eabdd3db3526/HttpResponseMessage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Frontend/Feasto.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.CouponAPI/Data/AppDbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.CouponAPI/Data/AppDbContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.CouponAPI/Models/DTO/ResponseDTO.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file:///usr/local/share/dotnet/sdk/8.0.101/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_8_default.globalconfig" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
@@ -226,7 +251,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743576924179</updated>
-      <workItem from="1743576925208" duration="22415000" />
+      <workItem from="1743576925208" duration="46967000" />
     </task>
     <task id="LOCAL-00001" summary="CouponAPI CRUD Added">
       <option name="closed" value="true" />
@@ -252,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743679951108</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Auth API added">
+      <option name="closed" value="true" />
+      <created>1743762361765</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743762361765</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +298,8 @@
     <MESSAGE value="CouponAPI CRUD Added" />
     <MESSAGE value="Consuming CouponAPI" />
     <MESSAGE value="All changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="All changes" />
+    <MESSAGE value="Auth API added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Auth API added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

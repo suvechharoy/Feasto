@@ -11,13 +11,14 @@ namespace Feasto.Web.Service;
 public class BaseService : IBaseService // This service is responsible to make calls to all the APIs/Services
 {
     private readonly IHttpClientFactory _httpClientFactory;
-
-    public BaseService(IHttpClientFactory httpClientFactory)
+    public readonly ITokenProvider _tokenProvider;
+    public BaseService(IHttpClientFactory httpClientFactory, ITokenProvider tokenProvider)
     {
         _httpClientFactory = httpClientFactory;
+        _tokenProvider = tokenProvider;
     }
     
-    public async Task<ResponseDTO?> SendAsync(RequestDTO requestDto)
+    public async Task<ResponseDTO?> SendAsync(RequestDTO requestDto, bool withBearer = true)
     {
         try
         {
@@ -26,6 +27,11 @@ public class BaseService : IBaseService // This service is responsible to make c
             message.Headers.Add("Accept", "application/json");
         
             //token generation
+            if (withBearer)
+            {
+                var token = _tokenProvider.GetToken();
+                message.Headers.Add("Authorization", $"Bearer {token}");
+            }
 
             message.RequestUri = new Uri(requestDto.Url);
             if (requestDto.Data != null)

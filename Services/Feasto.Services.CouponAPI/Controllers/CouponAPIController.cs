@@ -2,12 +2,14 @@ using AutoMapper;
 using Feasto.Services.CouponAPI.Data;
 using Feasto.Services.CouponAPI.Models;
 using Feasto.Services.CouponAPI.Models.DTO;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Feasto.Services.CouponAPI.Controllers;
 
 [Route("api/coupon")]
 [ApiController]
+[Authorize]
 public class CouponAPIController : ControllerBase
 {
     private readonly AppDbContext _db;
@@ -72,6 +74,7 @@ public class CouponAPIController : ControllerBase
         return _response;
     }
     [HttpPost]
+    [Authorize(Roles = "ADMIN")]
     public ResponseDTO Post([FromBody] CouponDTO couponDTO)
     {
         try
@@ -89,6 +92,7 @@ public class CouponAPIController : ControllerBase
         return _response;
     }
     [HttpPut]
+    [Authorize(Roles = "ADMIN")]
     public ResponseDTO Put([FromBody] CouponDTO couponDTO)
     {
         try
@@ -107,6 +111,7 @@ public class CouponAPIController : ControllerBase
     }
     [HttpDelete]
     [Route("{id:int}")]
+    [Authorize(Roles = "ADMIN")]
     public ResponseDTO Delete(int id)
     {
         try

@@ -46,7 +46,7 @@ namespace Feasto.Services.AuthAPI.Controllers
             return Ok(_response);
         }
         
-        [HttpPost("assignRole")]
+        [HttpPost("AssignRole")]
         public async Task<IActionResult> AssignRole([FromBody] RegistrationRequestDTO model)
         {
             var assignRoleSuccessful = await _authService.AssignRole(model.Email, model.Role.ToUpper());
