@@ -16,24 +16,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b77edbc-e96a-4644-8254-0e92f60bd4a4" name="Changes" comment="Home Page and Details added">
-      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Data/AppDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Extensions/WebAppBuilderExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/MappingConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Models/CartDetails.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Models/CartHeader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Models/DTO/CartDTO.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Models/DTO/CartDetailsDTO.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Models/DTO/CartHeaderDTO.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Models/DTO/CouponDTO.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Models/DTO/ProductDTO.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Models/DTO/ResponseDTO.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Service/CouponService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Service/IService/ICouponService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Service/IService/IProductService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Service/ProductService.cs" afterDir="false" />
+    <list default="true" id="6b77edbc-e96a-4644-8254-0e92f60bd4a4" name="Changes" comment="Shopping Cart functionality added">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Feasto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Feasto/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Feasto.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Feasto.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,12 +66,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Launch Settings Profile.Feasto.Services.AuthAPI: http.executor": "Run",
-    ".NET Launch Settings Profile.Feasto.Services.CouponAPI: http.executor": "Run",
+    ".NET Launch Settings Profile.Feasto.Services.AuthAPI: http.executor": "Debug",
+    ".NET Launch Settings Profile.Feasto.Services.CouponAPI: http.executor": "Debug",
     ".NET Launch Settings Profile.Feasto.Services.CouponAPI: https.executor": "Run",
-    ".NET Launch Settings Profile.Feasto.Services.ProductAPI: http.executor": "Run",
-    ".NET Launch Settings Profile.Feasto.Services.ShoppingCartAPI: http.executor": "Run",
-    ".NET Launch Settings Profile.Feasto.Web: http.executor": "Run",
+    ".NET Launch Settings Profile.Feasto.Services.ProductAPI: http.executor": "Debug",
+    ".NET Launch Settings Profile.Feasto.Services.ShoppingCartAPI: http.executor": "Debug",
+    ".NET Launch Settings Profile.Feasto.Web: http.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -338,7 +322,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743576924179</updated>
-      <workItem from="1743576925208" duration="69146000" />
+      <workItem from="1743576925208" duration="71967000" />
     </task>
     <task id="LOCAL-00001" summary="CouponAPI CRUD Added">
       <option name="closed" value="true" />
@@ -396,7 +380,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744115891431</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Shopping Cart functionality added">
+      <option name="closed" value="true" />
+      <created>1744195195525</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1744195195525</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,7 +405,27 @@
     <MESSAGE value="Consuming Auth API" />
     <MESSAGE value="Product API Added" />
     <MESSAGE value="Home Page and Details added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home Page and Details added" />
+    <MESSAGE value="Shopping Cart functionality added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shopping Cart functionality added" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Controllers/CartAPIController.cs</url>
+          <line>43</line>
+          <properties documentPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Controllers/CartAPIController.cs" containingFunctionPresentation="Method 'GetCart'">
+            <startOffsets>
+              <option value="1603" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1674" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

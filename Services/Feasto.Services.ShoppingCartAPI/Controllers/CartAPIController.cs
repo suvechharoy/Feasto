@@ -46,7 +46,7 @@ namespace Feasto.Services.ShoppingCartAPI.Controllers
                 foreach (var item in cart.CartDetails)
                 {
                     item.Product = products.FirstOrDefault(p => p.ProductId == item.ProductId);  
-                    cart.CartHeader.CartTotal += item.Count + item.Product.Price;
+                    cart.CartHeader.CartTotal += item.Count * item.Product.Price;
                 }
                 // Apply coupon if any
                 if (!string.IsNullOrEmpty(cart.CartHeader.CouponCode))
