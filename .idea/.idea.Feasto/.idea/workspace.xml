@@ -9,18 +9,31 @@
     <projectFile profileName="https">Services/Feasto.Services.CouponAPI/Feasto.Services.CouponAPI.csproj</projectFile>
     <projectFile profileName="http">Services/Feasto.Services.ProductAPI/Feasto.Services.ProductAPI.csproj</projectFile>
     <projectFile profileName="https">Services/Feasto.Services.ProductAPI/Feasto.Services.ProductAPI.csproj</projectFile>
+    <projectFile profileName="http">Services/Feasto.Services.ShoppingCartAPI/Feasto.Services.ShoppingCartAPI.csproj</projectFile>
+    <projectFile profileName="https">Services/Feasto.Services.ShoppingCartAPI/Feasto.Services.ShoppingCartAPI.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b77edbc-e96a-4644-8254-0e92f60bd4a4" name="Changes" comment="Product API Added">
-      <change afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Views/Home/ProductDetails.cshtml" afterDir="false" />
+    <list default="true" id="6b77edbc-e96a-4644-8254-0e92f60bd4a4" name="Changes" comment="Home Page and Details added">
+      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Data/AppDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Extensions/WebAppBuilderExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/MappingConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Models/CartDetails.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Models/CartHeader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Models/DTO/CartDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Models/DTO/CartDetailsDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Models/DTO/CartHeaderDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Models/DTO/CouponDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Models/DTO/ProductDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Models/DTO/ResponseDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Service/CouponService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Service/IService/ICouponService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Service/IService/IProductService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Service/ProductService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Feasto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Feasto/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Feasto.Web/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Feasto.Web/Models/ProductDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Models/ProductDTO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Feasto.Web/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Views/Home/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Controllers/ProductAPIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Controllers/ProductAPIController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feasto.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Feasto.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +86,7 @@
     ".NET Launch Settings Profile.Feasto.Services.CouponAPI: http.executor": "Run",
     ".NET Launch Settings Profile.Feasto.Services.CouponAPI: https.executor": "Run",
     ".NET Launch Settings Profile.Feasto.Services.ProductAPI: http.executor": "Run",
+    ".NET Launch Settings Profile.Feasto.Services.ShoppingCartAPI: http.executor": "Run",
     ".NET Launch Settings Profile.Feasto.Web: http.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -177,6 +191,36 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Feasto.Services.ShoppingCartAPI: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Feasto.Services.ShoppingCartAPI.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="http" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Feasto.Services.ShoppingCartAPI: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Feasto.Services.ShoppingCartAPI.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="https" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Feasto.Web: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Frontend/Feasto.Web/Feasto.Web.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
@@ -257,10 +301,24 @@
             </ExecutableSnapshot>
           </option>
         </ExecutableRowSnapshot>
+        <ExecutableRowSnapshot>
+          <option name="condition">
+            <ConditionSnapshot>
+              <option name="type" value="immediately" />
+            </ConditionSnapshot>
+          </option>
+          <option name="executable">
+            <ExecutableSnapshot>
+              <option name="id" value="runConfig:.NET Launch Settings Profile.Feasto.Services.ShoppingCartAPI: http" />
+            </ExecutableSnapshot>
+          </option>
+        </ExecutableRowSnapshot>
       </rows>
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue=".NET Launch Settings Profile.Feasto.Services.ShoppingCartAPI: http" />
+      <item itemvalue=".NET Launch Settings Profile.Feasto.Services.ShoppingCartAPI: https" />
       <item itemvalue=".NET Launch Settings Profile.Feasto.Services.ProductAPI: http" />
       <item itemvalue=".NET Launch Settings Profile.Feasto.Services.ProductAPI: https" />
       <item itemvalue=".NET Launch Settings Profile.Feasto.Services.AuthAPI: http" />
@@ -280,7 +338,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743576924179</updated>
-      <workItem from="1743576925208" duration="54167000" />
+      <workItem from="1743576925208" duration="69146000" />
     </task>
     <task id="LOCAL-00001" summary="CouponAPI CRUD Added">
       <option name="closed" value="true" />
@@ -330,7 +388,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744113557418</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Home Page and Details added">
+      <option name="closed" value="true" />
+      <created>1744115891431</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1744115891431</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +412,8 @@
     <MESSAGE value="Auth API added" />
     <MESSAGE value="Consuming Auth API" />
     <MESSAGE value="Product API Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Product API Added" />
+    <MESSAGE value="Home Page and Details added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home Page and Details added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
