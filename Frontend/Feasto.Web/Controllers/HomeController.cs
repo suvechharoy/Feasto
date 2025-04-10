@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using System.IdentityModel.Tokens.Jwt;
 using Microsoft.AspNetCore.Mvc;
 using Feasto.Web.Models;
 using Feasto.Web.Service.IService;
@@ -10,10 +11,11 @@ namespace Feasto.Web.Controllers;
 public class HomeController : Controller
 {
     private readonly IProductService _productService;
-
-    public HomeController(IProductService productService)
+    private readonly ICartService _cartService;
+    public HomeController(IProductService productService, ICartService cartService)
     {
         _productService = productService;
+        _cartService = cartService; 
     }
 
     public async Task<IActionResult> Index()
@@ -46,6 +48,40 @@ public class HomeController : Controller
         return View(model);
     }
 
+    [HttpPost]
+    [Authorize]
+    [ActionName("ProductDetails")]
+    public async Task<IActionResult> ProductDetails(ProductDTO productDto)
+    {
+        CartDTO cartDto = new CartDTO()
+        {
+            CartHeader = new CartHeaderDTO()
+            {
+                UserId = User.Claims.Where(u=>u.Type == JwtRegisteredClaimNames.Sub)?.FirstOrDefault()?.Value,
+            }
+        };
+
+        CartDetailsDTO cartDetailsDto = new CartDetailsDTO()
+        {
+            Count = productDto.Count,
+            ProductId = productDto.ProductId,
+        };
+        
+        List<CartDetailsDTO> cartDetails = new() { cartDetailsDto };
+        cartDto.CartDetails = cartDetails;
+        
+        ResponseDTO? response = await _cartService.UpsertCartAsync(cartDto);
+        if (response != null && response.IsSuccess)
+        {
+            TempData["success"] = "Item added to cart!";
+            return RedirectToAction("Index");
+        }
+        else
+        {
+            TempData["error"] = response?.Message;
+        }
+        return View(productDto);
+    }
     public IActionResult Privacy()
     {
         return View();
