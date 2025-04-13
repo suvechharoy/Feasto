@@ -1,4 +1,5 @@
 using AutoMapper;
+using Feasto.MessageBus;
 using Feasto.Services.ShoppingCartAPI.Data;
 using Feasto.Services.ShoppingCartAPI.Models;
 using Feasto.Services.ShoppingCartAPI.Models.DTO;
@@ -18,14 +19,18 @@ namespace Feasto.Services.ShoppingCartAPI.Controllers
         private ResponseDTO _response;
         private readonly IProductService _productService;
         private readonly ICouponService _couponService;
+        private readonly IMessageBus _messageBus;
+        private IConfiguration _configuration;
 
-        public CartAPIController(AppDbContext db, IMapper mapper, IProductService productService, ICouponService couponService)
+        public CartAPIController(AppDbContext db, IMapper mapper, IProductService productService, ICouponService couponService, IMessageBus messageBus, IConfiguration configuration)
         {
             _db = db;
             _mapper = mapper;
             this._response = new ResponseDTO();
             _productService = productService;
             _couponService = couponService;
+            _messageBus = messageBus;   
+            _configuration = configuration;
         }
 
         [HttpGet("GetCart/{userId}")]
@@ -78,6 +83,22 @@ namespace Feasto.Services.ShoppingCartAPI.Controllers
                 cartFromDb.CouponCode = cartDto.CartHeader.CouponCode;
                 _db.CartHeaders.Update(cartFromDb);
                 await _db.SaveChangesAsync();
+                _response.Result = true;
+            }
+            catch (Exception e)
+            {
+                _response.Message = e.Message.ToString();
+                _response.IsSuccess = false;
+            }
+            return _response;
+        }
+        
+        [HttpPost("EmailCartRequest")]
+        public async Task<object> EmailCartRequest([FromBody] CartDTO cartDto)
+        {
+            try
+            {
+                await _messageBus.PublishMessage(cartDto, _configuration.GetValue<string>("TopicAndQueueNames:EmailShoppingCart"));
                 _response.Result = true;
             }
             catch (Exception e)

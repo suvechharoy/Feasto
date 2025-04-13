@@ -1,5 +1,6 @@
 using System.Text;
 using AutoMapper;
+using Feasto.MessageBus;
 using Feasto.Services.ShoppingCartAPI;
 using Feasto.Services.ShoppingCartAPI.Data;
 using Feasto.Services.ShoppingCartAPI.Extensions;
@@ -24,6 +25,7 @@ builder.Services.AddSingleton(mapper);
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<ICouponService, CouponService>();
+builder.Services.AddScoped<IMessageBus, MessageBus>();
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<BackendApiAuthenticationHttpClientHandler>();
 builder.Services.AddHttpClient("Product", u=>u.BaseAddress =

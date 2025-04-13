@@ -1,4 +1,4 @@
-namespace Feasto.Services.ShoppingCartAPI.Models.DTO;
+namespace Feasto.Services.EmailAPI.Models;
 
 public class CartHeaderDTO
 {

@@ -2,7 +2,7 @@
 
 @if (Model.CartHeader != null && Model.CartDetails?.Count() > 0)
 {
-    <form method="post" xmlns="http://www.w3.org/1999/html">
+    <form method="post" asp-action="EmailCart">
     <br />
     <input asp-for="CartHeader.UserId" hidden/>
     <input asp-for="CartHeader.CartHeaderId" hidden/>

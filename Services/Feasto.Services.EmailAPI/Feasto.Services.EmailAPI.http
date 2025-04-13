@@ -1,0 +1,6 @@
+@Feasto.Services.EmailAPI_HostAddress = http://localhost:5109
+
+GET {{Feasto.Services.EmailAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

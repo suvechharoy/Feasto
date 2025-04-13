@@ -47,6 +47,21 @@ namespace Feasto.Web.Controllers
         }
         
         [HttpPost]
+        public async Task<IActionResult> EmailCart(CartDTO cartDTO)
+        {
+            CartDTO cart = await LoadCartBasedOnLoggedInUser();
+            cart.CartHeader.Email = User.Claims.Where(u=> u.Type == JwtRegisteredClaimNames.Email)?.FirstOrDefault()?.Value;
+
+            ResponseDTO? response = await _cartService.EmailCart(cart);
+            if (response != null && response.IsSuccess)
+            {
+                TempData["Success"] = "Email will be processed and sent shortly.";
+                return RedirectToAction(nameof(CartIndex));
+            }
+            return View();
+        }
+        
+        [HttpPost]
         public async Task<IActionResult> RemoveCoupon(CartDTO cartDTO)
         {
             cartDTO.CartHeader.CouponCode = "";

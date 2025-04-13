@@ -50,4 +50,14 @@ public class CartService : ICartService
             Url = StaticDetails.ShoppingCartAPIBase + "/api/cart/ApplyCoupon"
         });
     }
+
+    public async Task<ResponseDTO?> EmailCart(CartDTO cartDto)
+    {
+        return await _baseService.SendAsync(new RequestDTO()
+        {
+            ApiType = StaticDetails.ApiType.POST,
+            Data = cartDto,
+            Url = StaticDetails.ShoppingCartAPIBase + "/api/cart/EmailCartRequest"
+        });
+    }
 }
