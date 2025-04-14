@@ -27,4 +27,8 @@
       <Folder Include="Controllers\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\Integration\Feasto.MessageBus\Feasto.MessageBus.csproj" />
+    </ItemGroup>
+
 </Project>
