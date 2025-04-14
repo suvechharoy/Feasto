@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feasto.MessageBus", "Integr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feasto.Services.EmailAPI", "Services\Feasto.Services.EmailAPI\Feasto.Services.EmailAPI.csproj", "{ECD2848D-DCB3-49E6-9671-B3F7C1C63DD1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feasto.Services.OrderAPI", "Services\Feasto.Services.OrderAPI\Feasto.Services.OrderAPI.csproj", "{FA2F630D-820E-40C9-B63C-7FFA4E7FBE0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{ECD2848D-DCB3-49E6-9671-B3F7C1C63DD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECD2848D-DCB3-49E6-9671-B3F7C1C63DD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECD2848D-DCB3-49E6-9671-B3F7C1C63DD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA2F630D-820E-40C9-B63C-7FFA4E7FBE0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA2F630D-820E-40C9-B63C-7FFA4E7FBE0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA2F630D-820E-40C9-B63C-7FFA4E7FBE0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA2F630D-820E-40C9-B63C-7FFA4E7FBE0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
