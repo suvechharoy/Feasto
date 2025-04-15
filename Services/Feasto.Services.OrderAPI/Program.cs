@@ -4,12 +4,12 @@ using Feasto.MessageBus;
 using Feasto.Services.OrderAPI;
 using Feasto.Services.OrderAPI.Data;
 using Feasto.Services.OrderAPI.Extensions;
-using Feasto.Services.OrderAPI.Service;
 using Feasto.Services.OrderAPI.Service.IService;
 using Feasto.Services.OrderAPI.Utility;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using ProductService = Feasto.Services.OrderAPI.Service.ProductService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -67,6 +67,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+Stripe.StripeConfiguration.ApiKey = builder.Configuration.GetSection("Stripe:SecretKey").Get<string>();
+
 
 app.UseHttpsRedirection();
 
