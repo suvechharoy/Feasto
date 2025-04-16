@@ -1,4 +1,5 @@
 using AutoMapper;
+using Feasto.MessageBus;
 using Feasto.Services.OrderAPI.Data;
 using Feasto.Services.OrderAPI.Models;
 using Feasto.Services.OrderAPI.Models.DTO;
@@ -6,6 +7,7 @@ using Feasto.Services.OrderAPI.Service.IService;
 using Feasto.Services.OrderAPI.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Stripe;
 using Stripe.Checkout;
 
@@ -19,15 +21,61 @@ namespace Feasto.Services.OrderAPI.Controllers
         private IMapper _mapper;
         private readonly AppDbContext _context;
         private IProductService _productService;
+        private readonly IConfiguration _configuration;
+        public readonly IMessageBus _messageBus;
         
-        public OrderAPIController(AppDbContext context, IMapper mapper, IProductService productService)
+        public OrderAPIController(AppDbContext context, IMapper mapper, IProductService productService, IConfiguration configuration, IMessageBus messageBus)
         {
             _context = context;
             _mapper = mapper;
             _productService = productService;
+            _configuration = configuration;
+            _messageBus = messageBus;
             this._response = new ResponseDTO();
         }
 
+        [Authorize]
+        [HttpGet("GetOrders")]
+        public ResponseDTO? Get(string? userId="")
+        {
+            try
+            {
+                IEnumerable<OrderHeader> objList;
+                if (User.IsInRole(StaticDetails.RoleAdmin))
+                {
+                    objList = _context.OrderHeaders.Include(x => x.OrderDetails).OrderByDescending(u=>u.OrderHeaderId).ToList();
+                }
+                else
+                {
+                    objList = _context.OrderHeaders.Include(x => x.OrderDetails).Where(u=>u.UserId==userId).OrderByDescending(u=>u.OrderHeaderId).ToList();
+                }
+                _response.Result = _mapper.Map<IEnumerable<OrderHeaderDTO>>(objList);
+            }
+            catch (Exception e)
+            {
+                _response.IsSuccess = false;
+                _response.Message = e.Message;
+            }
+            return _response;
+        }
+        
+        [Authorize]
+        [HttpGet("GetOrder/{id:int}")]
+        public ResponseDTO? Get(int id)
+        {
+            try
+            {
+                OrderHeader orderHeader = _context.OrderHeaders.Include(u=>u.OrderDetails).First(u=>u.OrderHeaderId == id);
+                _response.Result = _mapper.Map<OrderHeaderDTO>(orderHeader);
+            }
+            catch (Exception e)
+            {
+                _response.IsSuccess = false;
+                _response.Message = e.Message;
+            }
+            return _response;
+        }
+        
         [Authorize]
         [HttpPost("CreateOrder")]
         public async Task<ResponseDTO> CreateOrder([FromBody] CartDTO cartDTO)
@@ -138,6 +186,15 @@ namespace Feasto.Services.OrderAPI.Controllers
                     orderHeader.Status = StaticDetails.Status_Approved;
                     _context.SaveChanges();
 
+                    RewardsDTO rewardsDTO = new RewardsDTO()
+                    {
+                        OrderId = orderHeader.OrderHeaderId,
+                        RewardsActivity = Convert.ToInt32(orderHeader.OrderTotal), // say $1=1POINT
+                        UserId = orderHeader.UserId
+                    };
+                    string topicName = _configuration.GetValue<string>("TopicAndQueueNames:OrderCreatedTopic");
+                    _messageBus.PublishMessage(rewardsDTO, topicName);
+                    
                     _response.Result = _mapper.Map<OrderHeaderDTO>(orderHeader);
                 }
             }
@@ -145,6 +202,39 @@ namespace Feasto.Services.OrderAPI.Controllers
             {
                 _response.IsSuccess = false;
                 _response.Message = e.Message;
+            }
+            return _response;
+        }
+
+        [Authorize]
+        [HttpPost("UpdateOrderStatus/{orderId:int}")]
+        public async Task<ResponseDTO> UpdateOrderStatus(int orderId, [FromBody] string newStatus)
+        {
+            try
+            {
+                OrderHeader orderHeader = _context.OrderHeaders.First(u => u.OrderHeaderId == orderId);
+                if (orderHeader != null)
+                {
+                    if (newStatus == StaticDetails.Status_Cancelled)
+                    {
+                        //give refund via stripe
+                        var options = new RefundCreateOptions()
+                        {
+                            Reason = RefundReasons.RequestedByCustomer,
+                            PaymentIntent = orderHeader.PaymentIntentId
+                        };
+                        
+                        var service = new RefundService();
+                        Refund refund = service.Create(options);
+                        orderHeader.Status = newStatus;
+                    }
+                    orderHeader.Status = newStatus;
+                    _context.SaveChanges();
+                }
+            }
+            catch (Exception e)
+            {
+                _response.IsSuccess = false;
             }
             return _response;
         }

@@ -1,7 +1,7 @@
-using Feasto.Services.EmailAPI.Data;
-using Feasto.Services.EmailAPI.Extension;
-using Feasto.Services.EmailAPI.Messaging;
-using Feasto.Services.EmailAPI.Services;
+using Feasto.Services.RewardAPI.Data;
+using Feasto.Services.RewardAPI.Extension;
+using Feasto.Services.RewardAPI.Messaging;
+using Feasto.Services.RewardAPI.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,7 +15,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 var optionBuilder = new DbContextOptionsBuilder<AppDbContext>();
 optionBuilder.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
-builder.Services.AddSingleton(new EmailService(optionBuilder.Options));
+builder.Services.AddSingleton(new RewardService(optionBuilder.Options));
 
 builder.Services.AddSingleton<IAzureServiceBusConsumer, AzureServiceBusConsumer>();
 
@@ -41,7 +41,7 @@ app.MapControllers();
 
 ApplyMigrations();
 
-app.UseAzureServiceBusConsumer();   
+app.UseAzureServiceBusConsumer();  
 
 app.Run();
 

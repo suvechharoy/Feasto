@@ -1,5 +1,6 @@
 using System.Text;
 using Feasto.Services.EmailAPI.Data;
+using Feasto.Services.EmailAPI.Message;
 using Feasto.Services.EmailAPI.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Primitives;
@@ -36,6 +37,12 @@ public class EmailService : IEmailService
     {
         string message = "User Registration Successful. <br/> Email : " + email;
         await LogAndEmail(message, "suvechharoy06@gmail.com"); //provide an admin email
+    }
+
+    public async Task LogOrderPlaced(RewardsMessage rewardsMessage)
+    {
+        string message = "New Order Placed. <br/> Order ID : " + rewardsMessage.OrderId;
+        await LogAndEmail(message, "suvechharoy06@gmail.com");
     }
 
     private async Task<bool> LogAndEmail(string message, string email)
