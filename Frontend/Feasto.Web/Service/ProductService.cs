@@ -37,7 +37,8 @@ public class ProductService : IProductService
         {
             ApiType = StaticDetails.ApiType.POST,
             Data = productDto,
-            Url = StaticDetails.ProductAPIBase + "/api/product"
+            Url = StaticDetails.ProductAPIBase + "/api/product",
+            ContentType = StaticDetails.ContentType.MultipartFormData
         });
     }
 
@@ -47,7 +48,8 @@ public class ProductService : IProductService
         {
             ApiType = StaticDetails.ApiType.PUT,
             Data = productDto,
-            Url = StaticDetails.ProductAPIBase + "/api/product"
+            Url = StaticDetails.ProductAPIBase + "/api/product",
+            ContentType = StaticDetails.ContentType.MultipartFormData
         });
     }
 
