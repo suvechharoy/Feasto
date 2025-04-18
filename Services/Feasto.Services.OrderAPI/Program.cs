@@ -56,7 +56,7 @@ builder.Services.AddSwaggerGen(options =>
         }
     });
 });
-builder.addAppAuthentication(); // The complete authentication config is moved to a separate class instead of cluttering it in Program.cs
+builder.AddAppAuthentication(); // The complete authentication config is moved to a separate class instead of cluttering it in Program.cs
 builder.Services.AddAuthorization();
 
 var app = builder.Build();

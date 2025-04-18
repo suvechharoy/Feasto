@@ -6,7 +6,7 @@ namespace Feasto.Services.ProductAPI.Extensions;
 
 public static class WebAppBuilderExtensions
 {
-    public static WebApplicationBuilder addAppAuthentication(this WebApplicationBuilder builder)
+    public static WebApplicationBuilder AddAppAuthentication(this WebApplicationBuilder builder)
     {
         var secret = builder.Configuration.GetValue<string>("ApiSettings:Secret");
         var issuer = builder.Configuration.GetValue<string>("ApiSettings:Issuer");

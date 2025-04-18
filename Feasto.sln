@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feasto.Services.OrderAPI", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feasto.Services.RewardAPI", "Services\Feasto.Services.RewardAPI\Feasto.Services.RewardAPI.csproj", "{90F8B16E-091E-4C43-A7FE-D0DB8BC5FC34}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feasto.GatewaySolution", "Gateway\Feasto.GatewaySolution\Feasto.GatewaySolution.csproj", "{D489ACAC-7201-442D-814E-AD6AFA468F98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{90F8B16E-091E-4C43-A7FE-D0DB8BC5FC34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90F8B16E-091E-4C43-A7FE-D0DB8BC5FC34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90F8B16E-091E-4C43-A7FE-D0DB8BC5FC34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D489ACAC-7201-442D-814E-AD6AFA468F98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D489ACAC-7201-442D-814E-AD6AFA468F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D489ACAC-7201-442D-814E-AD6AFA468F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D489ACAC-7201-442D-814E-AD6AFA468F98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -2,6 +2,7 @@ using System.IdentityModel.Tokens.Jwt;
 using Feasto.Web.Models;
 using Feasto.Web.Service.IService;
 using Feasto.Web.Utility;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
@@ -14,11 +15,14 @@ namespace Feasto.Web.Controllers
         {
             _orderService = orderService;
         }
+        
+        [Authorize]
         public ActionResult OrderIndex()
         {
             return View();
         }
-
+        
+        [Authorize]
         public async Task<IActionResult> OrderDetail(int orderId)
         {
             OrderHeaderDTO orderHeaderDto = new OrderHeaderDTO();
