@@ -22,7 +22,9 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="wwwroot\ProductImages\" />
+        <Content Include="wwwroot\ProductImages\**\*">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
     </ItemGroup>
 
 </Project>

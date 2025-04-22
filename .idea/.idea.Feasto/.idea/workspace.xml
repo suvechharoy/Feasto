@@ -25,8 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b77edbc-e96a-4644-8254-0e92f60bd4a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Gateway/Feasto.GatewaySolution/Extensions/WebAppBuilderExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gateway/Feasto.GatewaySolution/ocelot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/appsettings.Production.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway/Feasto.GatewaySolution/ocelot.Production.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/appsettings.Production.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.CouponAPI/appsettings.Production.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.EmailAPI/appsettings.Production.json" afterDir="false" />
@@ -35,24 +35,34 @@
       <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.RewardAPI/appsettings.Production.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/appsettings.Production.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Feasto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Feasto/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Feasto.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Feasto.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Feasto.Web/Controllers/OrderController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Controllers/OrderController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Feasto.Web/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Feasto.Web/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway/Feasto.GatewaySolution/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/Feasto.GatewaySolution/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway/Feasto.GatewaySolution/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/Feasto.GatewaySolution/Properties/launchSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Integration/Feasto.MessageBus/MessageBus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/Feasto.MessageBus/MessageBus.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.CouponAPI/Extensions/WebAppBuilderExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.CouponAPI/Extensions/WebAppBuilderExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.CouponAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.CouponAPI/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.CouponAPI/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.CouponAPI/Properties/launchSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.CouponAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.CouponAPI/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.EmailAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.EmailAPI/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.EmailAPI/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.EmailAPI/Properties/launchSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.EmailAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.EmailAPI/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.OrderAPI/Extensions/WebAppBuilderExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.OrderAPI/Extensions/WebAppBuilderExtensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.OrderAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.OrderAPI/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.OrderAPI/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.OrderAPI/Properties/launchSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.OrderAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.OrderAPI/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Extensions/WebAppBuilderExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Extensions/WebAppBuilderExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Controllers/ProductAPIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Controllers/ProductAPIController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Feasto.Services.ProductAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Feasto.Services.ProductAPI.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/wwwroot/ProductImages/17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/wwwroot/ProductImages/17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/wwwroot/ProductImages/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/wwwroot/ProductImages/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/wwwroot/ProductImages/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/wwwroot/ProductImages/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/wwwroot/ProductImages/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/wwwroot/ProductImages/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.RewardAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.RewardAPI/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.RewardAPI/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.RewardAPI/Properties/launchSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.RewardAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.RewardAPI/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Extensions/WebAppBuilderExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Extensions/WebAppBuilderExtensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Properties/launchSettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +81,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -94,35 +109,22 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b4e4585d6d5309b65edbdbda1b0e322193c5163b5958a2f8eed9bd65d22f/RazorView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/db7395f4add94e6d10e515b3e55373f2821f8323de7dc8e314d78feefacf5584/ActionMethodExecutor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Frontend/Feasto.Web/Controllers/CartController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Frontend/Feasto.Web/Service/BaseService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Frontend/Feasto.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Frontend/Feasto.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Frontend/Feasto.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Frontend/Feasto.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Frontend/Feasto.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Frontend/Feasto.Web/wwwroot/lib/jquery/dist/jquery.min.map" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Integration/Feasto.MessageBus/MessageBus.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Integration/Feasto.MessageBus/MessageBus.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.CouponAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.CouponAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.EmailAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.EmailAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.EmailAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.EmailAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.EmailAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.OrderAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.OrderAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.OrderAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.OrderAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.ProductAPI/Migrations/AppDbContextModelSnapshot.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.ProductAPI/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.RewardAPI/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.RewardAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.RewardAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.ShoppingCartAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file:///usr/local/share/dotnet/sdk/8.0.101/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_8_default.globalconfig" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///usr/local/share/dotnet/sdk/8.0.101/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Publish.targets" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="Toolset" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -133,31 +135,847 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.Feasto.GatewaySolution: http.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Launch Settings Profile.Feasto.Services.AuthAPI: http.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Launch Settings Profile.Feasto.Services.CouponAPI: http.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Launch Settings Profile.Feasto.Services.CouponAPI: https.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Launch Settings Profile.Feasto.Services.EmailAPI: http.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Launch Settings Profile.Feasto.Services.OrderAPI: http.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Launch Settings Profile.Feasto.Services.ProductAPI: http.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Launch Settings Profile.Feasto.Services.RewardAPI: http.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Launch Settings Profile.Feasto.Services.ShoppingCartAPI: http.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Launch Settings Profile.Feasto.Web: http.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;HotReloadSettingsPage&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.Feasto.GatewaySolution: http.executor": "Run",
+    ".NET Launch Settings Profile.Feasto.Services.AuthAPI: http.executor": "Run",
+    ".NET Launch Settings Profile.Feasto.Services.CouponAPI: http.executor": "Run",
+    ".NET Launch Settings Profile.Feasto.Services.CouponAPI: https.executor": "Run",
+    ".NET Launch Settings Profile.Feasto.Services.EmailAPI: http.executor": "Run",
+    ".NET Launch Settings Profile.Feasto.Services.OrderAPI: http.executor": "Run",
+    ".NET Launch Settings Profile.Feasto.Services.ProductAPI: http.executor": "Debug",
+    ".NET Launch Settings Profile.Feasto.Services.RewardAPI: http.executor": "Run",
+    ".NET Launch Settings Profile.Feasto.Services.ShoppingCartAPI: http.executor": "Run",
+    ".NET Launch Settings Profile.Feasto.Web: http.executor": "Run",
+    "Azure - Web App.Azure - Web App: Feasto .executor": "Run",
+    "Azure - Web App.FeastoAuthAPI.executor": "Run",
+    "Azure - Web App.Publish Feasto.GatewaySolution to Azure (1).executor": "Run",
+    "Azure - Web App.Publish Feasto.GatewaySolution to Azure (2).executor": "Run",
+    "Azure - Web App.Publish Feasto.GatewaySolution to Azure (3).executor": "Run",
+    "Azure - Web App.Publish Feasto.GatewaySolution to Azure (4).executor": "Run",
+    "Azure - Web App.Publish Feasto.GatewaySolution to Azure (5).executor": "Run",
+    "Azure - Web App.Publish Feasto.GatewaySolution to Azure.executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.AuthAPI to Azure (1).executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.AuthAPI to Azure (2).executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.AuthAPI to Azure (3).executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.AuthAPI to Azure (4).executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.AuthAPI to Azure (5).executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.AuthAPI to Azure (6).executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.AuthAPI to Azure (7).executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.AuthAPI to Azure (8).executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.AuthAPI to Azure (9).executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.AuthAPI to Azure.executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.CouponAPI to Azure (1).executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.CouponAPI to Azure.executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.EmailAPI to Azure (1).executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.EmailAPI to Azure (2).executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.EmailAPI to Azure.executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.OrderAPI to Azure (1).executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.OrderAPI to Azure (2).executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.OrderAPI to Azure (3).executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.OrderAPI to Azure (4).executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.OrderAPI to Azure.executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.ProductAPI to Azure (1).executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.ProductAPI to Azure (10).executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.ProductAPI to Azure (2).executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.ProductAPI to Azure (3).executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.ProductAPI to Azure (4).executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.ProductAPI to Azure (5).executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.ProductAPI to Azure (6).executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.ProductAPI to Azure (7).executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.ProductAPI to Azure (8).executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.ProductAPI to Azure (9).executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.ProductAPI to Azure.executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.RewardAPI to Azure (1).executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.RewardAPI to Azure (2).executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.RewardAPI to Azure (3).executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.RewardAPI to Azure (4).executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.RewardAPI to Azure.executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.ShoppingCartAPI to Azure (1).executor": "Run",
+    "Azure - Web App.Publish Feasto.Services.ShoppingCartAPI to Azure.executor": "Run",
+    "Azure - Web App.Publish Feasto.Web to Azure (1).executor": "Run",
+    "Azure - Web App.Publish Feasto.Web to Azure (2).executor": "Run",
+    "Azure - Web App.Publish Feasto.Web to Azure (3).executor": "Run",
+    "Azure - Web App.Publish Feasto.Web to Azure (4).executor": "Run",
+    "Azure - Web App.Publish Feasto.Web to Azure (5).executor": "Run",
+    "Azure - Web App.Publish Feasto.Web to Azure.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main__deploy",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "HotReloadSettingsPage",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Multi-Launch.Multi-Launch: Feasto">
+}]]></component>
+  <component name="RunManager" selected="Azure - Web App.Azure - Web App: Feasto ">
+    <configuration name="Azure - Web App: Feasto " type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="FeastoAPI" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="B2" />
+      <option name="pricingTier" value="Basic" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Feasto.Services.ProductAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoproduct" />
+      <method v="2" />
+    </configuration>
+    <configuration name="FeastoAuthAPI" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="asp-app-250421154823" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="F1" />
+      <option name="pricingTier" value="Free" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/Feasto.Services.AuthAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoauth" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.GatewaySolution to Azure (1)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="FeastoAPI" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="B2" />
+      <option name="pricingTier" value="Basic" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Gateway/Feasto.GatewaySolution/Feasto.GatewaySolution.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastogateway" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.GatewaySolution to Azure (2)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="FeastoAPI" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="B2" />
+      <option name="pricingTier" value="Basic" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Gateway/Feasto.GatewaySolution/Feasto.GatewaySolution.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastogateway" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.GatewaySolution to Azure (3)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="FeastoAPI" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="B2" />
+      <option name="pricingTier" value="Basic" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Gateway/Feasto.GatewaySolution/Feasto.GatewaySolution.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastogateway" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.GatewaySolution to Azure (4)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="FeastoAPI" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="B2" />
+      <option name="pricingTier" value="Basic" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Gateway/Feasto.GatewaySolution/Feasto.GatewaySolution.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastogateway" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.GatewaySolution to Azure (5)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="FeastoAPI" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="B2" />
+      <option name="pricingTier" value="Basic" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Gateway/Feasto.GatewaySolution/Feasto.GatewaySolution.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastogateway" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.GatewaySolution to Azure" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="FeastoAPI" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="B2" />
+      <option name="pricingTier" value="Basic" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Gateway/Feasto.GatewaySolution/Feasto.GatewaySolution.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastogateway" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.AuthAPI to Azure (1)" type="AzureWebAppDeploy">
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/Feasto.Services.AuthAPI.csproj" />
+      <method v="2">
+        <option name="Publish Solution" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Publish Feasto.Services.AuthAPI to Azure (2)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="asp-app-250421141836" />
+      <option name="appServicePlanResourceGroupName" value="rg-app-250421141836" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="F1" />
+      <option name="pricingTier" value="Free" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/Feasto.Services.AuthAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="rg-app-250421141836" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="FeastoServicesAuthAPI" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.AuthAPI to Azure (3)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="asp-app-250421141836" />
+      <option name="appServicePlanResourceGroupName" value="rg-app-250421141836" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="F1" />
+      <option name="pricingTier" value="Free" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/Feasto.Services.AuthAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="rg-app-250421141836" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="FeastoServicesAuthAPI" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.AuthAPI to Azure (4)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="asp-app-250421141836" />
+      <option name="appServicePlanResourceGroupName" value="rg-app-250421141836" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="F1" />
+      <option name="pricingTier" value="Free" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/Feasto.Services.AuthAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="rg-app-250421141836" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="FeastoServicesAuthAPI" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.AuthAPI to Azure (5)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="asp-app-250421141836" />
+      <option name="appServicePlanResourceGroupName" value="rg-app-250421141836" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="F1" />
+      <option name="pricingTier" value="Free" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/Feasto.Services.AuthAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="rg-app-250421141836" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="FeastoServicesAuthAPI" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.AuthAPI to Azure (6)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="asp-app-250421141836" />
+      <option name="appServicePlanResourceGroupName" value="rg-app-250421141836" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="F1" />
+      <option name="pricingTier" value="Free" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/Feasto.Services.AuthAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="rg-app-250421141836" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="FeastoServicesAuthAPI" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.AuthAPI to Azure (7)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="ASP-FeastoDev-86b8" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="F1" />
+      <option name="pricingTier" value="Free" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/Feasto.Services.AuthAPI.csproj" />
+      <option name="region" value="canadacentral" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastodev" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.AuthAPI to Azure (8)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="feastoservices" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="B1" />
+      <option name="pricingTier" value="Basic" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/Feasto.Services.AuthAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoauthservice" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.AuthAPI to Azure (9)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="FeastoAPI" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="B2" />
+      <option name="pricingTier" value="Basic" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/Feasto.Services.AuthAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoauth" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.AuthAPI to Azure" type="AzureWebAppDeploy">
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/Feasto.Services.AuthAPI.csproj" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.CouponAPI to Azure (1)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="FeastoAPI" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="B2" />
+      <option name="pricingTier" value="Basic" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.CouponAPI/Feasto.Services.CouponAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastocoupon" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.CouponAPI to Azure" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="asp-app-250421155552" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="F1" />
+      <option name="pricingTier" value="Free" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.CouponAPI/Feasto.Services.CouponAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastocoupon" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.EmailAPI to Azure (1)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="asp-app-250421160212" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="F1" />
+      <option name="pricingTier" value="Free" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.EmailAPI/Feasto.Services.EmailAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoemail" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.EmailAPI to Azure (2)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="FeastoAPI" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="B2" />
+      <option name="pricingTier" value="Basic" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.EmailAPI/Feasto.Services.EmailAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoemail" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.EmailAPI to Azure" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="asp-app-250421160212" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="F1" />
+      <option name="pricingTier" value="Free" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.EmailAPI/Feasto.Services.EmailAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoemail" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.OrderAPI to Azure (1)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="asp-app-250421160611" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="F1" />
+      <option name="pricingTier" value="Free" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.OrderAPI/Feasto.Services.OrderAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoorder" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.OrderAPI to Azure (2)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="FeastoAPI" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="B2" />
+      <option name="pricingTier" value="Basic" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.OrderAPI/Feasto.Services.OrderAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoorder" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.OrderAPI to Azure (3)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="FeastoAPI" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="B2" />
+      <option name="pricingTier" value="Basic" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.OrderAPI/Feasto.Services.OrderAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoorder" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.OrderAPI to Azure (4)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="FeastoAPI" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="B2" />
+      <option name="pricingTier" value="Basic" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.OrderAPI/Feasto.Services.OrderAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoorder" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.OrderAPI to Azure" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="asp-app-250421160611" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="F1" />
+      <option name="pricingTier" value="Free" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.OrderAPI/Feasto.Services.OrderAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoorder" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.ProductAPI to Azure (10)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="FeastoAPI" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="B2" />
+      <option name="pricingTier" value="Basic" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Feasto.Services.ProductAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoproduct" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.ProductAPI to Azure (1)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="asp-app-250421160917" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="F1" />
+      <option name="pricingTier" value="Free" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Feasto.Services.ProductAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoproduct" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.ProductAPI to Azure (2)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="asp-app-250421171054" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="F1" />
+      <option name="pricingTier" value="Free" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Feasto.Services.ProductAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoproduct" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.ProductAPI to Azure (3)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="asp-app-250421172542" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="F1" />
+      <option name="pricingTier" value="Free" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Feasto.Services.ProductAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoproduct" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.ProductAPI to Azure (4)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="asp-app-250422101031" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="F1" />
+      <option name="pricingTier" value="Free" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Feasto.Services.ProductAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoproduct" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.ProductAPI to Azure (5)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="FeastoAPI" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="B2" />
+      <option name="pricingTier" value="Basic" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Feasto.Services.ProductAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoproduct" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.ProductAPI to Azure (6)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="FeastoAPI" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="B2" />
+      <option name="pricingTier" value="Basic" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Feasto.Services.ProductAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoproduct" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.ProductAPI to Azure (7)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="FeastoAPI" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="B2" />
+      <option name="pricingTier" value="Basic" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Feasto.Services.ProductAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoproduct" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.ProductAPI to Azure (8)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="FeastoAPI" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="B2" />
+      <option name="pricingTier" value="Basic" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Feasto.Services.ProductAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoproduct" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.ProductAPI to Azure (9)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="FeastoAPI" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="B2" />
+      <option name="pricingTier" value="Basic" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Feasto.Services.ProductAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoproduct" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.ProductAPI to Azure" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="asp-app-250421160805" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="F1" />
+      <option name="pricingTier" value="Free" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Feasto.Services.ProductAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoproduct" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.RewardAPI to Azure (1)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="asp-app-250421171742" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="F1" />
+      <option name="pricingTier" value="Free" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.RewardAPI/Feasto.Services.RewardAPI.csproj" />
+      <option name="region" value="eastus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoreward" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.RewardAPI to Azure (2)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="asp-app-250421171852" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="F1" />
+      <option name="pricingTier" value="Free" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.RewardAPI/Feasto.Services.RewardAPI.csproj" />
+      <option name="region" value="southcentralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoreward" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.RewardAPI to Azure (3)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="asp-app-250421171924" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="F1" />
+      <option name="pricingTier" value="Free" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.RewardAPI/Feasto.Services.RewardAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoreward" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.RewardAPI to Azure (4)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="FeastoAPI" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="B2" />
+      <option name="pricingTier" value="Basic" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.RewardAPI/Feasto.Services.RewardAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoreward" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.RewardAPI to Azure" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="asp-app-250421171347" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="F1" />
+      <option name="pricingTier" value="Free" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.RewardAPI/Feasto.Services.RewardAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoreward" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.ShoppingCartAPI to Azure (1)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="FeastoAPI" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="B2" />
+      <option name="pricingTier" value="Basic" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Feasto.Services.ShoppingCartAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastocart" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Services.ShoppingCartAPI to Azure" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="FeastoAPI" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="B2" />
+      <option name="pricingTier" value="Basic" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Feasto.Services.ShoppingCartAPI.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastocart" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Web to Azure (1)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="FeastoAPI" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="B2" />
+      <option name="pricingTier" value="Basic" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Frontend/Feasto.Web/Feasto.Web.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoweb" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Web to Azure (2)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="FeastoAPI" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="B2" />
+      <option name="pricingTier" value="Basic" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Frontend/Feasto.Web/Feasto.Web.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoweb" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Web to Azure (3)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="FeastoAPI" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="B2" />
+      <option name="pricingTier" value="Basic" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Frontend/Feasto.Web/Feasto.Web.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoweb" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Web to Azure (4)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="FeastoAPI" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="B2" />
+      <option name="pricingTier" value="Basic" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Frontend/Feasto.Web/Feasto.Web.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoweb" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Web to Azure (5)" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="FeastoAPI" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="B2" />
+      <option name="pricingTier" value="Basic" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Frontend/Feasto.Web/Feasto.Web.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoweb" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Feasto.Web to Azure" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="FeastoAPI" />
+      <option name="appServicePlanResourceGroupName" value="FeastoDev" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="B2" />
+      <option name="pricingTier" value="Basic" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Frontend/Feasto.Web/Feasto.Web.csproj" />
+      <option name="region" value="centralus" />
+      <option name="resourceGroupName" value="FeastoDev" />
+      <option name="subscriptionId" value="f143a428-6ad0-470b-9d18-55ecd402129e" />
+      <option name="webAppName" value="feastoweb" />
+      <method v="2" />
+    </configuration>
     <configuration name="Feasto.GatewaySolution: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Gateway/Feasto.GatewaySolution/Feasto.GatewaySolution.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
@@ -548,6 +1366,58 @@
       <item itemvalue=".NET Launch Settings Profile.Feasto.Services.CouponAPI: https" />
       <item itemvalue=".NET Launch Settings Profile.Feasto.Web: http" />
       <item itemvalue=".NET Launch Settings Profile.Feasto.Web: https" />
+      <item itemvalue="Azure - Web App.Azure - Web App: Feasto " />
+      <item itemvalue="Azure - Web App.Publish Feasto.GatewaySolution to Azure" />
+      <item itemvalue="Azure - Web App.Publish Feasto.GatewaySolution to Azure (1)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.GatewaySolution to Azure (2)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.GatewaySolution to Azure (3)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.GatewaySolution to Azure (4)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.GatewaySolution to Azure (5)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.AuthAPI to Azure (9)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.CouponAPI to Azure (1)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.EmailAPI to Azure (2)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.OrderAPI to Azure (2)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.OrderAPI to Azure (3)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.OrderAPI to Azure (4)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.ProductAPI to Azure (10)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.ProductAPI to Azure (5)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.ProductAPI to Azure (6)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.ProductAPI to Azure (7)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.ProductAPI to Azure (8)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.ProductAPI to Azure (9)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.RewardAPI to Azure (4)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.ShoppingCartAPI to Azure" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.ShoppingCartAPI to Azure (1)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Web to Azure" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Web to Azure (1)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Web to Azure (2)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Web to Azure (3)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Web to Azure (4)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Web to Azure (5)" />
+      <item itemvalue="Azure - Web App.FeastoAuthAPI" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.AuthAPI to Azure" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.AuthAPI to Azure (1)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.AuthAPI to Azure (2)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.AuthAPI to Azure (3)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.AuthAPI to Azure (4)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.AuthAPI to Azure (5)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.AuthAPI to Azure (6)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.AuthAPI to Azure (7)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.AuthAPI to Azure (8)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.CouponAPI to Azure" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.EmailAPI to Azure" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.EmailAPI to Azure (1)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.OrderAPI to Azure" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.OrderAPI to Azure (1)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.ProductAPI to Azure" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.ProductAPI to Azure (1)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.ProductAPI to Azure (2)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.ProductAPI to Azure (3)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.ProductAPI to Azure (4)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.RewardAPI to Azure" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.RewardAPI to Azure (1)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.RewardAPI to Azure (2)" />
+      <item itemvalue="Azure - Web App.Publish Feasto.Services.RewardAPI to Azure (3)" />
       <item itemvalue="Multi-Launch.Multi-Launch: Feasto" />
     </list>
   </component>
@@ -562,7 +1432,9 @@
       <workItem from="1743576925208" duration="102881000" />
       <workItem from="1744632730620" duration="35206000" />
       <workItem from="1744867021008" duration="18512000" />
-      <workItem from="1744953449712" duration="3144000" />
+      <workItem from="1744953449712" duration="9240000" />
+      <workItem from="1745224634616" duration="9688000" />
+      <workItem from="1745297277878" duration="19293000" />
     </task>
     <task id="LOCAL-00001" summary="CouponAPI CRUD Added">
       <option name="closed" value="true" />
@@ -748,7 +1620,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744883224219</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Gateway Integration">
+      <option name="closed" value="true" />
+      <created>1744972370083</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1744972370083</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -756,6 +1636,17 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="CouponAPI CRUD Added" />
@@ -779,7 +1670,8 @@
     <MESSAGE value="Email Cart - Bug Fix" />
     <MESSAGE value="Image Upload Functionality" />
     <MESSAGE value="Fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix" />
+    <MESSAGE value="Gateway Integration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gateway Integration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
