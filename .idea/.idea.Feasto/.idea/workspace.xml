@@ -25,42 +25,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b77edbc-e96a-4644-8254-0e92f60bd4a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Frontend/Feasto.Web/appsettings.Production.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gateway/Feasto.GatewaySolution/ocelot.Production.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/appsettings.Production.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.CouponAPI/appsettings.Production.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.EmailAPI/appsettings.Production.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.OrderAPI/appsettings.Production.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/appsettings.Production.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.RewardAPI/appsettings.Production.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/appsettings.Production.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/RabbitMQSender/IRabbitMQAuthMessageSender.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/RabbitMQSender/RabbitMQAuthMessageSender.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.EmailAPI/Messaging/RabbitMQAuthConsumer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.EmailAPI/Messaging/RabbitMQCartConsumer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.EmailAPI/Messaging/RabbitMQOrderConsumer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.OrderAPI/RabbitMQSender/IRabbitMQOrderMessageSender.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.OrderAPI/RabbitMQSender/RabbitMQOrderMessageSender.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.RewardAPI/Messaging/RabbitMQOrderConsumer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/RabbitMQSender/IRabbitMQCartMessageSender.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/RabbitMQSender/RabbitMQCartMessageSender.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Feasto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Feasto/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gateway/Feasto.GatewaySolution/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/Feasto.GatewaySolution/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feasto.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Feasto.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gateway/Feasto.GatewaySolution/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/Feasto.GatewaySolution/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Integration/Feasto.MessageBus/MessageBus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Integration/Feasto.MessageBus/MessageBus.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/Controllers/AuthAPIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/Controllers/AuthAPIController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/Feasto.Services.AuthAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/Feasto.Services.AuthAPI.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.AuthAPI/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.CouponAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.CouponAPI/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.CouponAPI/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.CouponAPI/Properties/launchSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.CouponAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.CouponAPI/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.EmailAPI/Feasto.Services.EmailAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.EmailAPI/Feasto.Services.EmailAPI.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.EmailAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.EmailAPI/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.EmailAPI/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.EmailAPI/Properties/launchSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.EmailAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.EmailAPI/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.OrderAPI/Controllers/OrderAPIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.OrderAPI/Controllers/OrderAPIController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.OrderAPI/Feasto.Services.OrderAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.OrderAPI/Feasto.Services.OrderAPI.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.OrderAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.OrderAPI/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.OrderAPI/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.OrderAPI/Properties/launchSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.OrderAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.OrderAPI/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Controllers/ProductAPIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Controllers/ProductAPIController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Feasto.Services.ProductAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Feasto.Services.ProductAPI.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/wwwroot/ProductImages/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/wwwroot/ProductImages/15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/wwwroot/ProductImages/17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/wwwroot/ProductImages/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/wwwroot/ProductImages/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.ProductAPI/wwwroot/ProductImages/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.RewardAPI/Feasto.Services.RewardAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.RewardAPI/Feasto.Services.RewardAPI.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.RewardAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.RewardAPI/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.RewardAPI/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.RewardAPI/Properties/launchSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.RewardAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.RewardAPI/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Controllers/CartAPIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Controllers/CartAPIController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Feasto.Services.ShoppingCartAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Feasto.Services.ShoppingCartAPI.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Feasto.Services.ShoppingCartAPI/Properties/launchSettings.json" afterDir="false" />
     </list>
@@ -83,7 +84,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="main_rabbitmq" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -101,8 +102,12 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3e1beecd653485b1deb7561c9360f17cdf93ce222c59548f021503eb07450/UserManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/60038225224a9318597b3232280390933d3c3fe85d9ed859a7e4825915eb1c/HttpClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/661861d2f496c2dbfec4ea5554546fc42e67528c7f93c28d0c05b814a7991/PhysicalFileProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6780d13016c376c4491c5618b257d84da7eacf747ed2719783e775546b79b/ThrowHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8056cd3f452fefb9834f05cdb275b762dd41f27b7766cd71174e78592dc495b/Monitor.CoreCLR.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/85e97f467d698c9e98eae9e3a1b39d58541173e57992d8f7111eabdd3db3526/HttpResponseMessage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a0b45f29f34f594814a7b1fbc25fe5ef3c18257956ed4f4fbfa68717db58/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
@@ -115,12 +120,65 @@
     <setting file="file://$PROJECT_DIR$/Frontend/Feasto.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Frontend/Feasto.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Frontend/Feasto.Web/wwwroot/lib/jquery/dist/jquery.min.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Gateway/Feasto.GatewaySolution/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Gateway/Feasto.GatewaySolution/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Gateway/Feasto.GatewaySolution/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Gateway/Feasto.GatewaySolution/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Gateway/Feasto.GatewaySolution/ocelot.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Integration/Feasto.MessageBus/MessageBus.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Integration/Feasto.MessageBus/MessageBus.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Integration/Feasto.MessageBus/MessageBus.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Integration/Feasto.MessageBus/MessageBus.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Integration/Feasto.MessageBus/MessageBus.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.AuthAPI/Controllers/AuthAPIController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.AuthAPI/Controllers/AuthAPIController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.AuthAPI/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.AuthAPI/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.CouponAPI/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.CouponAPI/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.CouponAPI/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.CouponAPI/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.CouponAPI/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.CouponAPI/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.CouponAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.CouponAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.CouponAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.EmailAPI/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.EmailAPI/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.EmailAPI/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.EmailAPI/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.EmailAPI/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.EmailAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.OrderAPI/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.OrderAPI/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.OrderAPI/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.OrderAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.OrderAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.ProductAPI/Controllers/ProductAPIController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.ProductAPI/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.ProductAPI/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.ProductAPI/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.ProductAPI/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.RewardAPI/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.RewardAPI/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.RewardAPI/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.RewardAPI/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.RewardAPI/appsettings.Production.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.RewardAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.RewardAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.RewardAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.RewardAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.ShoppingCartAPI/Controllers/CartAPIController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.ShoppingCartAPI/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.ShoppingCartAPI/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.ShoppingCartAPI/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.ShoppingCartAPI/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.ShoppingCartAPI/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.ShoppingCartAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/suvechharoy/Projects/dotnetProjects/Feasto/Services/Feasto.Services.ShoppingCartAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file:///usr/local/share/dotnet/sdk/8.0.101/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_8_default.globalconfig" root0="FORCE_HIGHLIGHTING" />
     <setting file="file:///usr/local/share/dotnet/sdk/8.0.101/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Publish.targets" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///usr/local/share/dotnet/sdk/8.0.101/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.DefaultItems.Shared.targets" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
@@ -138,15 +196,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     ".NET Launch Settings Profile.Feasto.GatewaySolution: http.executor": "Run",
-    ".NET Launch Settings Profile.Feasto.Services.AuthAPI: http.executor": "Run",
-    ".NET Launch Settings Profile.Feasto.Services.CouponAPI: http.executor": "Run",
+    ".NET Launch Settings Profile.Feasto.Services.AuthAPI: http.executor": "Debug",
+    ".NET Launch Settings Profile.Feasto.Services.CouponAPI: http.executor": "Debug",
     ".NET Launch Settings Profile.Feasto.Services.CouponAPI: https.executor": "Run",
-    ".NET Launch Settings Profile.Feasto.Services.EmailAPI: http.executor": "Run",
-    ".NET Launch Settings Profile.Feasto.Services.OrderAPI: http.executor": "Run",
+    ".NET Launch Settings Profile.Feasto.Services.EmailAPI: http.executor": "Debug",
+    ".NET Launch Settings Profile.Feasto.Services.OrderAPI: http.executor": "Debug",
     ".NET Launch Settings Profile.Feasto.Services.ProductAPI: http.executor": "Debug",
-    ".NET Launch Settings Profile.Feasto.Services.RewardAPI: http.executor": "Run",
-    ".NET Launch Settings Profile.Feasto.Services.ShoppingCartAPI: http.executor": "Run",
-    ".NET Launch Settings Profile.Feasto.Web: http.executor": "Run",
+    ".NET Launch Settings Profile.Feasto.Services.RewardAPI: http.executor": "Debug",
+    ".NET Launch Settings Profile.Feasto.Services.ShoppingCartAPI: http.executor": "Debug",
+    ".NET Launch Settings Profile.Feasto.Web: http.executor": "Debug",
     "Azure - Web App.Azure - Web App: Feasto .executor": "Run",
     "Azure - Web App.FeastoAuthAPI.executor": "Run",
     "Azure - Web App.Publish Feasto.GatewaySolution to Azure (1).executor": "Run",
@@ -201,7 +259,7 @@
     "Azure - Web App.Publish Feasto.Web to Azure.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main__deploy",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -1435,6 +1493,7 @@
       <workItem from="1744953449712" duration="9240000" />
       <workItem from="1745224634616" duration="9688000" />
       <workItem from="1745297277878" duration="19293000" />
+      <workItem from="1745902400813" duration="1080000" />
     </task>
     <task id="LOCAL-00001" summary="CouponAPI CRUD Added">
       <option name="closed" value="true" />

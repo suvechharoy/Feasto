@@ -4,6 +4,7 @@ using Feasto.MessageBus;
 using Feasto.Services.OrderAPI;
 using Feasto.Services.OrderAPI.Data;
 using Feasto.Services.OrderAPI.Extensions;
+using Feasto.Services.OrderAPI.RabbitMQSender;
 using Feasto.Services.OrderAPI.Service.IService;
 using Feasto.Services.OrderAPI.Utility;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -23,7 +24,7 @@ IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
 builder.Services.AddSingleton(mapper);
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddScoped<IProductService, ProductService>();
-builder.Services.AddScoped<IMessageBus, MessageBus>();
+builder.Services.AddScoped<IRabbitMQOrderMessageSender, RabbitMQOrderMessageSender>();
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<BackendApiAuthenticationHttpClientHandler>();
 builder.Services.AddHttpClient("Product", u=>u.BaseAddress =
@@ -63,11 +64,11 @@ var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 app.UseSwagger();
-app.UseSwaggerUI(c =>
+if (app.Environment.IsDevelopment())
 {
-    c.SwaggerEndpoint("/swagger/v1/swagger.json", "ORDER API");
-    c.RoutePrefix = string.Empty;
-});
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
 
 Stripe.StripeConfiguration.ApiKey = builder.Configuration.GetSection("Stripe:SecretKey").Get<string>();
 

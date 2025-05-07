@@ -3,6 +3,7 @@ using Feasto.MessageBus;
 using Feasto.Services.ShoppingCartAPI.Data;
 using Feasto.Services.ShoppingCartAPI.Models;
 using Feasto.Services.ShoppingCartAPI.Models.DTO;
+using Feasto.Services.ShoppingCartAPI.RabbitMQSender;
 using Feasto.Services.ShoppingCartAPI.Service.IService;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -19,10 +20,10 @@ namespace Feasto.Services.ShoppingCartAPI.Controllers
         private ResponseDTO _response;
         private readonly IProductService _productService;
         private readonly ICouponService _couponService;
-        private readonly IMessageBus _messageBus;
+        private readonly IRabbitMQCartMessageSender _messageBus;
         private IConfiguration _configuration;
 
-        public CartAPIController(AppDbContext db, IMapper mapper, IProductService productService, ICouponService couponService, IMessageBus messageBus, IConfiguration configuration)
+        public CartAPIController(AppDbContext db, IMapper mapper, IProductService productService, ICouponService couponService, IRabbitMQCartMessageSender messageBus, IConfiguration configuration)
         {
             _db = db;
             _mapper = mapper;
@@ -98,7 +99,7 @@ namespace Feasto.Services.ShoppingCartAPI.Controllers
         {
             try
             {
-                await _messageBus.PublishMessage(cartDto, _configuration.GetValue<string>("TopicAndQueueNames:EmailShoppingCartQueue"));
+                _messageBus.SendMessage(cartDto, _configuration.GetValue<string>("TopicAndQueueNames:EmailShoppingCartQueue"));
                 _response.Result = true;
             }
             catch (Exception e)
