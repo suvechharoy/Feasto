@@ -1,5 +1,6 @@
 using Feasto.MessageBus;
 using Feasto.Services.AuthAPI.Models.DTO;
+using Feasto.Services.AuthAPI.RabbitMQSender;
 using Feasto.Services.AuthAPI.Service.IService;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -12,10 +13,10 @@ namespace Feasto.Services.AuthAPI.Controllers
     {
         private readonly IAuthService _authService;
         protected ResponseDTO _response;
-        private readonly IMessageBus _messageBus;
+        private readonly IRabbitMQAuthMessageSender _messageBus;
         private readonly IConfiguration _configuration;
 
-        public AuthAPIController(IAuthService authService, IMessageBus messageBus, IConfiguration configuration)
+        public AuthAPIController(IAuthService authService, IRabbitMQAuthMessageSender messageBus, IConfiguration configuration)
         {
             _authService = authService;
             _messageBus = messageBus;
@@ -33,7 +34,7 @@ namespace Feasto.Services.AuthAPI.Controllers
                 _response.Message = errorMessage;
                 return BadRequest(_response);
             }
-            await _messageBus.PublishMessage(model.Email, _configuration.GetValue<string>("TopicAndQueueNames:RegisterUserQueue"));
+            _messageBus.SendMessage(model.Email, _configuration.GetValue<string>("TopicAndQueueNames:RegisterUserQueue"));
             return Ok(_response);
         }
         

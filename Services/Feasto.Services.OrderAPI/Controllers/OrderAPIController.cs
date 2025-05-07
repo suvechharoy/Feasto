@@ -3,6 +3,7 @@ using Feasto.MessageBus;
 using Feasto.Services.OrderAPI.Data;
 using Feasto.Services.OrderAPI.Models;
 using Feasto.Services.OrderAPI.Models.DTO;
+using Feasto.Services.OrderAPI.RabbitMQSender;
 using Feasto.Services.OrderAPI.Service.IService;
 using Feasto.Services.OrderAPI.Utility;
 using Microsoft.AspNetCore.Authorization;
@@ -22,9 +23,9 @@ namespace Feasto.Services.OrderAPI.Controllers
         private readonly AppDbContext _context;
         private IProductService _productService;
         private readonly IConfiguration _configuration;
-        public readonly IMessageBus _messageBus;
+        public readonly IRabbitMQOrderMessageSender _messageBus;
         
-        public OrderAPIController(AppDbContext context, IMapper mapper, IProductService productService, IConfiguration configuration, IMessageBus messageBus)
+        public OrderAPIController(AppDbContext context, IMapper mapper, IProductService productService, IConfiguration configuration, IRabbitMQOrderMessageSender messageBus)
         {
             _context = context;
             _mapper = mapper;
@@ -193,7 +194,7 @@ namespace Feasto.Services.OrderAPI.Controllers
                         UserId = orderHeader.UserId
                     };
                     string topicName = _configuration.GetValue<string>("TopicAndQueueNames:OrderCreatedTopic");
-                    _messageBus.PublishMessage(rewardsDTO, topicName);
+                    _messageBus.SendMessage(rewardsDTO, topicName);
                     
                     _response.Result = _mapper.Map<OrderHeaderDTO>(orderHeader);
                 }

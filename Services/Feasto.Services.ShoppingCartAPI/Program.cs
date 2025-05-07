@@ -5,6 +5,7 @@ using Feasto.Services.ShoppingCartAPI;
 using Feasto.Services.ShoppingCartAPI.Data;
 using Feasto.Services.ShoppingCartAPI.Extensions;
 using Feasto.Services.ShoppingCartAPI.Models.DTO;
+using Feasto.Services.ShoppingCartAPI.RabbitMQSender;
 using Feasto.Services.ShoppingCartAPI.Service;
 using Feasto.Services.ShoppingCartAPI.Service.IService;
 using Feasto.Services.ShoppingCartAPI.Utility;
@@ -25,7 +26,7 @@ builder.Services.AddSingleton(mapper);
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<ICouponService, CouponService>();
-builder.Services.AddScoped<IMessageBus, MessageBus>();
+builder.Services.AddScoped<IRabbitMQCartMessageSender, RabbitMQCartMessageSender>();
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<BackendApiAuthenticationHttpClientHandler>();
 builder.Services.AddHttpClient("Product", u=>u.BaseAddress =
@@ -66,12 +67,11 @@ builder.Services.AddAuthorization();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-app.UseSwagger();
-app.UseSwaggerUI(c =>
+if (app.Environment.IsDevelopment())
 {
-    c.SwaggerEndpoint("/swagger/v1/swagger.json", "CART API");
-    c.RoutePrefix = string.Empty;
-});
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
 
 app.UseHttpsRedirection();
 

@@ -20,11 +20,9 @@
         <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.1" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
     </ItemGroup>
-
+    
     <ItemGroup>
-        <Content Include="wwwroot\ProductImages\**\*">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </Content>
+      <Folder Include="wwwroot\ProductImages\" />
     </ItemGroup>
 
 </Project>
